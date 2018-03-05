@@ -8,4 +8,5 @@ puts rss.channel.description
 rss.channel.items.each do|item|
   puts item.title
   puts item.link
+  puts item.pubDate
 end
